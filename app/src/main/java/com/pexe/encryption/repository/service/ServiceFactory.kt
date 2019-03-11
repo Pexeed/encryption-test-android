@@ -9,11 +9,11 @@ class ServiceFactory {
 
     companion object {
 
-        private const val BASE_URL = "https://movida-premium-mock.herokuapp.com/"
+        private const val BASE_URL = "https://mooven-mock.herokuapp.com/"
 
         private val certificatePinner = CertificatePinner.Builder()
             .add(
-                "movida-premium-mock.herokuapp.com",
+                "mooven-mock.herokuapp.com",
                 "sha256/Vuy2zjFSPqF5Hz18k88DpUViKGbABaF3vZx5Raghplc="
             )
             .build()
